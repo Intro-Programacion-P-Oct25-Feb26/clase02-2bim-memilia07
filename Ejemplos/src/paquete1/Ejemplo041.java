@@ -24,6 +24,7 @@ public class Ejemplo041 {
         String acumulador = "";
         // System.out.println(arreglo1.length);
         // arreglo1[2] = 1000;
+        // El .length hace que cuente el numero de posiciones que tiene el arreglo
         for (int i = 0; i < arreglo1.length; i++) {
             suma = suma + arreglo1[i];
             acumulador = String.format("%sSubíndice o Índice %d, "
