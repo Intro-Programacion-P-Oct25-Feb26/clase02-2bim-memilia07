@@ -31,8 +31,9 @@ public class Ejemplo102 {
             // Se agrega los valores al reporte siempe y cuando
             // el valor del nombre del estudiante sea:
             // Luis o Ana
-            nombre = estudiantes[i];
-            if (nombre.equals("Luis")) {
+            nombre = estudiantes[i]; // El valor que tenga estudiantes en la posicion i
+            if (!nombre.equals("Luis")) {
+                // Esta expresando que se presente en consola todos los nombres excepto Luis
             
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 
